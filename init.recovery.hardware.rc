@@ -1,8 +1,6 @@
 import /init.recovery.qcom_decrypt.rc
 
 on init
-    setprop sys.usb.configfs 1
-
     # Don't lose recovery logs- keep warm reset for coming out of recovery.
     write /sys/module/msm_poweroff/parameters/warm_reset 1
 
