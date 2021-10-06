@@ -47,11 +47,11 @@ TW_EXCLUDE_DEFAULT_USB_INIT := true
 TW_INCLUDE_NTFS_3G := true
 TW_INCLUDE_REPACKTOOLS := true
 TW_INCLUDE_RESETPROP := true
-PLATFORM_VERSION := 80
-PLATFORM_SECURITY_PATCH := 2099-12-31
+PLATFORM_VERSION := 127
+PLATFORM_SECURITY_PATCH := 2127-12-31
 LZMA_RAMDISK_TARGETS := recovery,boot
 TW_OVERRIDE_SYSTEM_PROPS := \
-    "ro.build.fingerprint=ro.system.build.fingerprint;ro.build.version.incremental;ro.product.name=ro.product.system.name"
+    "ro.build.product;ro.build.fingerprint=ro.system.build.fingerprint;ro.build.version.incremental;ro.product.name=ro.product.system.name"
 TW_LOAD_VENDOR_MODULES := "synaptics_dsx_core.ko synaptics_dsx_fw_update.ko synaptics_dsx_rmi_dev.ko synaptics_dsx_test_reporting.ko"
 
 # TWRP Debug Flags
