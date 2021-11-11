@@ -29,3 +29,7 @@ PRODUCT_COPY_FILES += \
 # ueventd
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/ueventd.hardware.rc:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/ueventd.rc
+
+# OEM otacerts
+PRODUCT_EXTRA_RECOVERY_KEYS += \
+    $(DEVICE_PATH)/recovery/security/$(BOARD_VENDOR)
