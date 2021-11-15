@@ -13,8 +13,20 @@
   },
   {
     "remote": "aosp",
+    "repository": "platform/hardware/google/pixel-sepolicy",
+    "target_path": "hardware/google/pixel-sepolicy",
+    "revision": "refs/tags/android-11.0.0_r29"
+  },
+  {
+    "remote": "aosp",
     "repository": "device/google/bonito-kernel",
     "target_path": "device/google/bonito-kernel",
+    "revision": "refs/tags/android-11.0.0_r29"
+  },
+  {
+    "remote": "aosp",
+    "repository": "device/google/bonito-sepolicy",
+    "target_path": "device/google/bonito-sepolicy",
     "revision": "refs/tags/android-11.0.0_r29"
   },
   {
