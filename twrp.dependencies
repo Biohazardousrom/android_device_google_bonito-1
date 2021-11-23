@@ -3,36 +3,36 @@
     "remote": "aosp",
     "repository": "platform/hardware/google/interfaces",
     "target_path": "hardware/google/interfaces",
-    "revision": "refs/tags/android-11.0.0_r29"
+    "branch": "refs/tags/android-11.0.0_r29"
   },
   {
     "remote": "aosp",
     "repository": "platform/hardware/google/pixel",
     "target_path": "hardware/google/pixel",
-    "revision": "refs/tags/android-11.0.0_r29"
+    "branch": "refs/tags/android-11.0.0_r29"
   },
   {
     "remote": "aosp",
     "repository": "platform/hardware/google/pixel-sepolicy",
     "target_path": "hardware/google/pixel-sepolicy",
-    "revision": "refs/tags/android-11.0.0_r29"
+    "branch": "refs/tags/android-11.0.0_r29"
   },
   {
     "remote": "aosp",
     "repository": "device/google/bonito-kernel",
     "target_path": "device/google/bonito-kernel",
-    "revision": "refs/tags/android-11.0.0_r29"
+    "branch": "refs/tags/android-11.0.0_r29"
   },
   {
     "remote": "aosp",
     "repository": "device/google/bonito-sepolicy",
     "target_path": "device/google/bonito-sepolicy",
-    "revision": "refs/tags/android-11.0.0_r29"
+    "branch": "refs/tags/android-11.0.0_r29"
   },
   {
     "remote": "TeamWin",
     "repository": "android_device_qcom_twrp-common",
     "target_path": "device/qcom/twrp-common",
-    "revision": "android-11"
+    "branch": "android-11"
   }
 ]
